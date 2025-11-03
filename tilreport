@@ -238,3 +238,17 @@ issueを作成することにより、開発期間を可視化することによ
 今回開発の技術選定によりTailwind CSSを採用している
 　Tailwind CSSはclassの中にさまざまなCSSが記録されており、class内の物を覚える学習コストはかかるもののboostrap CSSにはない独自のデザイン性を出すことができる。
 
+１１月３日
+現在のカリキュラム：卒業制作
+進捗状況：卒制issue作成・提出、Rails new ログイン画面の作成
+
+まだissueのLGTMはもらってないが時間の関係上アプリ開発に取り掛かった。
+久々なので色々忘れていたので、気づいたことをまとめておく。
+今回使った主なコマンド
+rails g　コマンド
+- docker compose exec web rails g model モデル名
+- dce web rails g controller コントロール名
+- dce web rails g migration マイグレーションファイル名
+
+controllerファイルは複数形で作る。
+
